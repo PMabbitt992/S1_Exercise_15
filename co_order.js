@@ -72,7 +72,7 @@ function calcOrder() {
 
       //store order details
       orderForm.elements.modelName.value = orderForm.elements.model.options[mIndex].text;
-      orderForm.elements.protectionName.value = document.querySelector('input[name="protection"]:checked').nextSibling.nodeValue;
+      orderForm.elements.protectionName.value = document.querySelector('input[name ="protection"]:checked').nextSibling.nodeValue;
 }
 
 function formatNumber(val, decimals) {
